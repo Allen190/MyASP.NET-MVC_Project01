@@ -1,0 +1,43 @@
+﻿@using Allen190Prj01.Models;
+@{
+    List<AdoMember> members = ViewBag.members;
+}
+
+@{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>資料庫編號</th>
+                <th>會員姓名</th>
+                <th>會員性別</th>
+                <th>會員電話</th>
+                <th>會員Email</th>
+                <th>會員生日</th>
+                <th>會員帳號</th>
+                @*<th>會員密碼</th>*@
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (AdoMember member in members)
+            {
+                <tr>
+                    <th>@member.MemId</th>
+                    <th>@member.MemName</th>
+                    <th>@member.MemGender</th>
+                    <th>@member.MemPhone</th>
+                    <th>@member.MemEmail</th>
+                    <th>@member.MemBirthaay</th>
+                    <th>@member.MemAccount</th>
+                    @*<th>@member.MemPassword</th>*@
+                    <th></th>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <p>
+        @Html.ActionLink("新增會員", "CreateMember")
+    </p>
+}
