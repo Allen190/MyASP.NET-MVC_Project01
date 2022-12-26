@@ -63,5 +63,19 @@ namespace Allen190Prj01.Models
             sqlConnection.Close();
         }
 
+
+        //public void ChengeTxt(ChangeString txt)
+        //{
+        //    SqlConnection sqlConnection = new SqlConnection(ConnStr);
+        //    SqlCommand sqlCommand = new SqlCommand(
+        //    @"Insert into tChangeString(fChar,fNewChar,fUpDateTime)values(@fChar,@fNewChar,@fUpDateTime)");
+        //    sqlCommand.Connection = sqlConnection;
+        //    sqlCommand.Parameters.Add(new SqlParameter("@fChar", txt.fChar));
+        //    sqlCommand.Parameters.Add(new SqlParameter("@fNewChar", txt.fNewChar));
+        //    sqlCommand.Parameters.Add(new SqlParameter("@fUpDateTime", txt.fUpDateTime));
+        //    sqlConnection.Open();
+        //    sqlCommand.ExecuteNonQuery();
+        //    sqlConnection.Close();
+        //}
     }
 }

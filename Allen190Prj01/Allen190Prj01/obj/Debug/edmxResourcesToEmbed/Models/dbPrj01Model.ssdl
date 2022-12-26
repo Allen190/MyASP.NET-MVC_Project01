@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="dbPrj01Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <!--產生期間發現錯誤:
+警告 6013: 資料表/檢視 'dbPrj01.dbo.tChangeString' 未定義主索引鍵，也無法推斷有效的主索引鍵。此資料表/檢視已被排除。如果要使用此實體，您必須檢閱您的結構描述，加入正確的索引鍵，並將它取消註解。
+        <EntityType Name="tChangeString">
+          <Property Name="fChar" Type="nvarchar" MaxLength="50" />
+          <Property Name="fNewChar" Type="nvarchar" MaxLength="50" />
+          <Property Name="fUpDateTime" Type="datetime" />
+        </EntityType>-->
+  <!--產生期間發現錯誤:
 警告 6002: 資料表/檢視 'dbPrj01.dbo.tMember' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。-->
   <EntityType Name="tMember">
     <Key>
