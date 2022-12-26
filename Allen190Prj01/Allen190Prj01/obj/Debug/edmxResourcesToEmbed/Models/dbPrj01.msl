@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbPrj01ModelStoreContainer" CdmEntityContainer="dbPrj01Entities1">
+    <EntitySetMapping Name="tMember">
+      <EntityTypeMapping TypeName="dbPrj01Model.tMember">
+        <MappingFragment StoreEntitySet="tMember">
+          <ScalarProperty Name="MemId" ColumnName="MemId" />
+          <ScalarProperty Name="MemName" ColumnName="MemName" />
+          <ScalarProperty Name="MemGender" ColumnName="MemGender" />
+          <ScalarProperty Name="MemPhone" ColumnName="MemPhone" />
+          <ScalarProperty Name="MemEmail" ColumnName="MemEmail" />
+          <ScalarProperty Name="MemBirthaay" ColumnName="MemBirthaay" />
+          <ScalarProperty Name="MemAccount" ColumnName="MemAccount" />
+          <ScalarProperty Name="MemPassword" ColumnName="MemPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tChangeString">
+      <EntityTypeMapping TypeName="dbPrj01Model.tChangeString">
+        <MappingFragment StoreEntitySet="tChangeString">
+          <ScalarProperty Name="fUpDateTime" ColumnName="fUpDateTime" />
+          <ScalarProperty Name="fNewChar" ColumnName="fNewChar" />
+          <ScalarProperty Name="fChar" ColumnName="fChar" />
+          <ScalarProperty Name="fId" ColumnName="fId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
