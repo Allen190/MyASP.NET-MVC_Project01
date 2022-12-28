@@ -180,3 +180,5 @@ C:\Users\user\OneDrive\桌面\新增資料夾\MyASP.NET-MVC_Project01\Allen190Pr
 C:\Users\user\OneDrive\桌面\新增資料夾\MyASP.NET-MVC_Project01\Allen190Prj01\Allen190Prj01\obj\Debug\Allen190Prj01.csproj.CopyComplete
 C:\Users\user\OneDrive\桌面\新增資料夾\MyASP.NET-MVC_Project01\Allen190Prj01\Allen190Prj01\obj\Debug\Allen190Prj01.dll
 C:\Users\user\OneDrive\桌面\新增資料夾\MyASP.NET-MVC_Project01\Allen190Prj01\Allen190Prj01\obj\Debug\Allen190Prj01.pdb
+C:\Users\user\OneDrive\桌面\新增資料夾\MyASP.NET-MVC_Project01\Allen190Prj01\Allen190Prj01\bin\Dapper.dll
+C:\Users\user\OneDrive\桌面\新增資料夾\MyASP.NET-MVC_Project01\Allen190Prj01\Allen190Prj01\bin\Dapper.xml
